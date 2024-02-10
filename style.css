@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.table__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
